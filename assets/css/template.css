@@ -446,4 +446,23 @@ footer {
     .rodape {
         width: 670px;
     }
+    @media (max-width:1920px) {
+        .section-projects--photoarea {
+            margin:1px;
+            width:990px;
+            height:200px;
+            padding:70px;
+            align-items:center;
+            margin:auto;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .banner_headline1 h4 {
+            color:#4D243D;
+            font-size:25px;
+            text-align:center;
+            margin-top:290px;
+        }
+    }
 }
